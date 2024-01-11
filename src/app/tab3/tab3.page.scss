@@ -1,0 +1,23 @@
+ion-header{
+    background: var(--ion-color-white);
+    ion-list{
+        background: var(--ion-color-primary);
+        border-radius: 0 0 25px 25px;
+        padding-bottom: 3vh;
+        -webkit-border-radius: 0 0 25px 25px;
+        -moz-border-radius: 0 0 25px 25px;
+        -ms-border-radius: 0 0 25px 25px;
+        -o-border-radius: 0 0 25px 25px;
+        ion-item{
+           
+            ion-label{
+                font-weight: bold;
+                font-size: 1.2rem;
+                letter-spacing: 0.5px;
+            }
+            
+        }
+}
+
+
+}

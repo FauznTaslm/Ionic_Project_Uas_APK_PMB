@@ -1,0 +1,48 @@
+<ion-header class="ion-no-border">
+  
+  <ion-list lines="none">
+    <ion-item color="primary">
+      <ion-label color="light">Informasi Alur Pencairan Fee</ion-label>
+      <ion-avatar slot="end">
+        <img src="assets/LOGO_UBT.png" >
+      </ion-avatar>
+    </ion-item>
+  </ion-list>
+ 
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="container mt-3">
+    <ul class="timeline">
+        <li>
+          <div class="time-label mt-4">
+            <span class="label label-success" style="background-color:green; color:white; padding:10px;">Data Pendaftaran</span>
+          </div>
+          <div class="timeline-badge info mt-5"><i class="fa-solid fa-user"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-body">
+              <h6><a href="#">Pengecekan nominal fee pendaftaran</a> dapat dicek melalui menu <b>Data Pendaftaran</b></h6>
+              <p>Pastikan terdapat jumlah fee pendaftaran</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="time-label mt-4">
+            <span class="label " style="background-color:green; color:white; padding:10px;">Konfirmasi ke bagian BAUM</span>
+          </div>
+          <div class="timeline-badge info mt-5"><i class="fa-solid fa-user"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-body">
+              <p><a href="#">BAUM</a>, Silahkan anda untuk konfirmasi dengan menunjukan daftar data pendaftaran dengan status <a href="#">"Verifikasi Pendaftaran Ok."</a> </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="time-label mt-4">
+            <span class="label " style="background-color:red; color:white; padding:10px;">Proses Pencairan Fee Selesai</span>
+          </div>
+          <div class="timeline-badge warning mt-5"  ><i class="fa-regular fa-clock"></i></div>
+        </li>
+    </ul>
+</div>
+</ion-content>

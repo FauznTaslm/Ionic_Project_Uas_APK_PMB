@@ -1,0 +1,83 @@
+<ion-header class="ion-no-border">
+  
+  <ion-list lines="none">
+    <ion-item color="primary">
+      <ion-label color="light">Pendaftaran Calon Mahasiswa</ion-label>
+      <ion-avatar slot="end">
+        <img src="assets/LOGO_UBT.png" >
+      </ion-avatar>
+    </ion-item>
+  </ion-list>
+ 
+</ion-header>
+
+
+  
+  <ion-content [fullscreen]="true">
+    <ion-list>
+    <ion-item>
+      <ion-input  label="Nama Lengkap" labelPlacement="stacked"  type="text" placeholder="Masukan Nama Lengkap" [(ngModel)]="nama_lengkap"></ion-input>
+    </ion-item>
+    
+    <ion-item>
+      <ion-select label="Jenis Kelamin" label-placement="stacked" placeholder="Pilih Jenis Kelamin" [(ngModel)]="jenis_kelamin">
+        <ion-select-option value="Pria">Pria</ion-select-option>
+        <ion-select-option value="Wanita">Wanita</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-input  label="No.Hanphone" labelPlacement="stacked"  type="number" placeholder="Masukan No.Hanphone" [(ngModel)]="no_hp"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input  label="Email" labelPlacement="stacked"  type="email" placeholder="Alamat Email" [(ngModel)]="email"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input  label="Asal Sekolah" labelPlacement="stacked"  type="text" placeholder="Asal Sekolah" [(ngModel)]="asal_sekolah"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-select label="Program Studi" label-placement="stacked" placeholder="Pilih Program Studi" [(ngModel)]="prodi">
+        <ion-select-option value="TI">Teknik Informatika</ion-select-option>
+        <ion-select-option value="SI">Sistem Informasi</ion-select-option>
+        <ion-select-option value="TEKIN">Teknologi Informasi</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-select label="Jenjang Studi" label-placement="stacked" placeholder="Pilih Jenjang Studi" [(ngModel)]="jenjang_studi">
+        <ion-select-option value="D3">D3</ion-select-option>
+        <ion-select-option value="S1">S1</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-select label="Kelas" label-placement="stacked" placeholder="Pilih Kelas" [(ngModel)]="kelas">
+        <ion-select-option value="A">Kelas A</ion-select-option>
+        <ion-select-option value="B">Kelas B</ion-select-option>
+        <ion-select-option value="C">Kelas C</ion-select-option>
+        <ion-select-option value="D">Kelas D</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+
+      <ion-select label="Info Kampus" label-placement="stacked" placeholder="Informasi Tentang Kampus" [(ngModel)]="info_kampus">
+        <ion-select-option value="Mahasiswa UBT" >Mahasiswa UBT</ion-select-option>
+        <ion-select-option value="Sosial Media">Sosial Media</ion-select-option>
+        <ion-select-option value="Keluarga">Keluarga</ion-select-option>
+        <ion-select-option value="Lainnya">Lainnya</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    
+  </ion-list>
+  </ion-content>
+  <ion-footer>
+    <ion-toolbar>
+      <ion-button expand="block" (click)="addData()" >Daftar</ion-button>
+    </ion-toolbar>
+  </ion-footer>
+  
+

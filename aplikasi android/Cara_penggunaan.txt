@@ -1,0 +1,1 @@
+Untuk Login tidak menggunakan database tetapi diberi validasi dalam ts sehingga Harus menginputkan value apapun untuk melanjutkan ke dalam aplikasi nya.

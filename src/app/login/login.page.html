@@ -1,0 +1,17 @@
+
+<ion-content [fullscreen]="true">
+<div class="header">
+  <h3>Welcome <span> Mahasiswa</span></h3>
+  <h1>Please Login <br>To Continue</h1>
+</div>
+
+<div class="form">
+  
+  <ion-input type="text" placeholder="Masukan NPM" [clearInput]="true" [(ngModel)]="npm"></ion-input>
+  <ion-input type="email" placeholder="Masukan Email" [clearInput]="true" [(ngModel)]="email"></ion-input>
+</div>
+<div class="button" (click)="login()">
+  Login <ion-icon name="chevron-forward-outline"></ion-icon>
+
+</div>
+</ion-content>

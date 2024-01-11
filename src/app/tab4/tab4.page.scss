@@ -1,0 +1,116 @@
+
+ion-content,ion-footer{
+    user-select: none;
+}
+
+ion-row:nth-child(even){
+  background-color: #cae7ffee;
+}
+
+ion-card .header{
+  border-bottom: 2px solid #222;
+    vertical-align:bottom;
+
+}
+
+
+.header {
+    font-weight: bold;
+    color: #111;
+    padding: 1%;
+  }
+  
+  
+  
+  .matkul,
+  .sks
+   {
+    max-width: 70px;
+    word-wrap: break-word;
+  }
+
+  .no,.kd{
+    max-width: 40px;
+    word-wrap: break-word;
+  }
+  .status{
+    max-width: 210px;
+    word-wrap: break-word;
+  }
+  
+  .row {
+    color: #111;
+    padding: 1%;
+  }
+  .data-table {
+    margin: 5px;
+  }
+  
+
+
+
+ion-content{
+    background: var(--ion-color-light);
+}
+
+ ion-header{
+    background: var(--ion-color-white);
+    ion-list{
+       
+        background: var(--ion-color-primary);
+        border-radius: 0 0 20px 20px;
+        padding-bottom: 5vh;
+        -webkit-border-radius: 0 0 20px 20px;
+        -moz-border-radius: 0 0 20px 20px;
+        -ms-border-radius: 0 0 20px 20px;
+        -o-border-radius: 0 0 20px 20px;
+        ion-item{
+           
+            ion-label{
+                font-weight: bold;
+                font-size: 1.2rem;
+                letter-spacing: 0.5px;
+            }
+            
+        }
+}
+div{
+    
+    margin: 0 8px;
+    ion-searchbar{
+        --border-radius:20px;
+        margin-top: -30px;
+    }
+}
+
+}
+ion-card ion-row span{
+    background-color: green;
+    color: #fff;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 7px;
+    // letter-spacing: 0.5px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+ion-card ion-row ion-col .ok{
+  background: var(--ion-color-primary);
+    color: #fff;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 7px;
+    letter-spacing: 0.1em;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+
+
+
+
+

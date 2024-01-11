@@ -1,0 +1,7 @@
+{
+  "name": "fzn_uas",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
